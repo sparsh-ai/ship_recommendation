@@ -174,7 +174,7 @@ Als in this image are the automated tests for the ranked and content based recom
 also show in the webscreens
 
 The landing page of the webscreens shows a table with all barge information
-![barges](/images/Landing page.png)
+[barges](/images/Landing page.png)
 
 When we select the recommendation link in the header we get the opportunity to fill in information and activate the
 recommendation system. We also see the current voyageplan. Due to privacy reasons the barges have aliases.
