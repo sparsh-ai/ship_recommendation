@@ -163,8 +163,8 @@ valuable data.
 # Result
 Fine tuning the funkSVD algorithm was mainly trail and error. With an latent_feature number of 12 and 200 iterations
 the means squared error ended on 0.00001, which should give good results. As you can see
-![training1 svd](https://github.com/Flandheer/ship_recommendation/tree/master/images/TrainingfunkSVDmodel1of2.png)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![training1 svd](/images/TrainingfunkSVDmodel1of2.png)
+
 
 ![training2 svd](/images/Train funkSVD model 2of2.png)
 
