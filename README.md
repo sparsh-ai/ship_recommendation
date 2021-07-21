@@ -163,7 +163,7 @@ valuable data.
 # Result
 Fine tuning the funkSVD algorithm was mainly trail and error. With an latent_feature number of 12 and 200 iterations
 the means squared error ended on 0.00001, which should give good results. As you can see
-![training1 svd](https://github.com/Flandheer/ship_recommendation/tree/master/images/Train funkSVD model 1of2.png)
+![training1 svd](https://github.com/Flandheer/ship_recommendation/tree/master/images/TrainingfunkSVDmodel1of2.png)
 ![training2 svd](/images/Train funkSVD model 2of2.png)
 
 This image als also shows the validation with testing the Root Mean Squared Error, which is 0.00312. The distribution
