@@ -13,9 +13,6 @@ from etl.transform_voyage_data import voyage_planbord
 
 app = Flask(__name__)
 
-
-Running on local machine doesn't require database connection
-
 db_url = 'mysql+pymysql://{}:{}@localhost/ship_recommendation'.format(databaseAuthName, databaseAuthPassword)
 db_shipRecommendation = create_engine(db_url)
 conn = db_shipRecommendation.connect()
