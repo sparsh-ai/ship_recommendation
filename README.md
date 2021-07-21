@@ -166,7 +166,7 @@ the means squared error ended on 0.00001, which should give good results. As you
 ![training1 svd](/images/TrainingfunkSVDmodel1of2.png)
 
 
-![training2 svd](/images/Train funkSVD model 2of2.png)
+![training2 svd](/images/TrainingfunkSVDmodel2of2.png)
 
 This image als also shows the validation with testing the Root Mean Squared Error, which is 0.00312. The distribution
 of differences between actual and predicted ratings show a low variance. Keep in mind that the numbers could range
@@ -176,20 +176,20 @@ Als in this image are the automated tests for the ranked and content based recom
 also show in the webscreens
 
 The landing page of the webscreens shows a table with all barge information
-[barges](/images/Landing page.png)
+[barges](/images/Landingpage.png)
 
 When we select the recommendation link in the header we get the opportunity to fill in information and activate the
 recommendation system. We also see the current voyageplan. Due to privacy reasons the barges have aliases.
-![recommendationpage](/images/Select information to get recommendation.png)
+![recommendationpage](/images/Selectinformationtogetrecommendation.png)
 
 Result when selecting route 277, Rotterdam to Geertruidenberg. Recommendation based on funkSVD
-![funkSVDRecommendation](/images/recommendation voyage with id 277 sorted on closest positions from port.png)
+![funkSVDRecommendation](/images/recommendationvoyagewithid277sortedonclosestpositionsfromport.png)
 
 Result when selection known barge 2. Recommendation based on content.
-![bargeRecommendation](/images/Recommendation barge with id 2 sorted on closest positions from port.png)
+![bargeRecommendation](/images/Recommendationbargewithid2sortedonclosestpositionsfromport.png)
 
 Result when selecting unknown barge. Recommendation based on rank.
-![unknwonBargeRecommendation](/images/Recommendation highest ranked barges sorted on closest positions from port.png)
+![unknwonBargeRecommendation](/images/Recommendationhighestrankedbargessortedonclosestpositionsfromport.png)
 
 
 For a data scientist it's interesting to test the funkSVD method on a logistical problem. There are, however, some down-
